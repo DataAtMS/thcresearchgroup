@@ -357,7 +357,7 @@ export default function ArticlePage() {
             </div>
             {article.articleType && article.articleType !== 'blog' && (
               <div style={{ fontFamily: "'Space Mono', monospace", fontSize: "9px", color: COLOR.bg, background: COLOR.accent, letterSpacing: "0.08em", textTransform: "uppercase", padding: "2px 7px", borderRadius: "2px" }}>
-                {article.articleType === 'listicle' ? 'TOP LIST' : 'COMPARISON'}
+                {article.articleType === 'listicle' ? 'LISTICLE' : 'COMPARISON'}
               </div>
             )}
           </div>

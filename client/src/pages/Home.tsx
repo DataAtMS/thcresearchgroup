@@ -433,7 +433,7 @@ export default function Home() {
                         </h3>
                         {article.articleType && article.articleType !== 'blog' && (
                           <span style={{ fontFamily: "'Space Mono', monospace", fontSize: "8px", color: COLOR.bg, background: COLOR.accent, letterSpacing: "0.06em", textTransform: "uppercase", padding: "2px 5px", borderRadius: "2px", flexShrink: 0 }}>
-                            {article.articleType === 'listicle' ? 'LIST' : 'VS'}
+                            {article.articleType === 'listicle' ? 'LISTICLE' : 'VS'}
                           </span>
                         )}
                       </div>
